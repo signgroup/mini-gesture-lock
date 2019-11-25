@@ -1,0 +1,5 @@
+<view class="index-page">
+<view class="tip"><text >请输入手势密码</text></view>
+  <mini-gesture-lock container-width="{{600}}" cycleRadius="{{70}}" bind:end="onEnd" password="{{password}}" ></mini-gesture-lock>
+  <view class="result">{{data}}</view>
+</view>

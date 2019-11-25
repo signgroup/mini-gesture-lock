@@ -1,0 +1,15 @@
+.index-page {
+  box-sizing: border-box;
+  padding: 50rpx 0;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.tip{
+     text-align: center;
+     margin-bottom: 40rpx;
+     font-size: 28rpx;
+}
+.result {
+  text-align: center;
+}
